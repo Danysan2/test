@@ -4,15 +4,8 @@ public class Calculadora {
 
         Suma.suma();
         Division.division();
-        System.out.println("Multiplicacion: " + multiplicacion());
+        System.out.println("Multiplicacion: " + Producto.producto(3,6));
         System.out.println("Resta: " +  resta());
-    }
-
-
-    public static int multiplicacion(){
-        Producto multiplicacion = new Producto();
-        int resultado = multiplicacion.producto(3,5);
-        return resultado;
     }
 
     public static int resta(){
