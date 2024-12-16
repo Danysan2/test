@@ -2,11 +2,17 @@ public class Calculadora {
 
     public static void main(String[] args) {
 
+        //Suma
         Suma.suma();
-        Resta.resta();
-        Producto.producto();
-        Division.division();
 
+        //Resta
+        Resta.resta();
+
+        //producto
+        Producto.producto();
+
+        //division
+        Division.division();
 
     }
 }
