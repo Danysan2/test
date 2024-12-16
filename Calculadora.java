@@ -1,9 +1,13 @@
 public class Calculadora {
 
     public static void main(String[] args) {
+
+        Suma.suma();
+        Division.division();
         System.out.println("Multiplicacion: " + multiplicacion());
         System.out.println("Resta: " +  resta());
     }
+
 
     public static int multiplicacion(){
         Producto multiplicacion = new Producto();
